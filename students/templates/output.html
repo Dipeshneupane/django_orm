@@ -1,0 +1,11 @@
+<table>
+    <th>First_Name</th>
+    <th>Last_Name</th>
+
+    {% for i in post%}
+    <tr>
+        <td>{{i.first_name}}</td>               
+        <td>{{i.last_name}}</td>
+    </tr>
+    {% endfor %}
+</table>
